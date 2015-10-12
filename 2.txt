@@ -1,0 +1,2 @@
+ 由于/p  ICTCLAS/nx  官方/n  并/c  没有/d  发布/v  DLL/nx  文件/n  ，/w  但是/c  发布/v  了/u  exe/nx  程序/n  ，/w  和/c  源/ng  码/v  。/w  根据/p  源/ng  码/v  重新/d  封装/v  了/u  DLL/nx  ，/w  并且/c  做/v  了/u  相应/v  的/u  改/vd  动/v  。/w   主要/d  改动/v  如下/v  ：/w  
+   因为/c  免费/vn  版/n  没有/v  DLL/nx  提供/v  ,/w  所以/c  这/r  个/q  DLL/nx  是/v  在/p  分词/n  ./w  exe/nx  系统/n  的/u  源代码/n  上/m  改/ng  的/b  ,/w  接口/n  也/d  和/c  中科院/j  的/u  文档/n  有些/d  不/a  一样/a  ./w  因为/c  我/r  觉得/v  中科院/j  提供/v  的/b  接口/n  太/a  多/a  ,/w  用/p  起来/v  比较/d  麻烦/an  ./w   全部/m  改动/v  如下/v  :/nx  

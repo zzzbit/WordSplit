@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta name="application-name" content="新浪微博"/> 
+<meta name="msapplication-tooltip" content="新浪微博" />
+<meta name="msapplication-window" content="width=1024;height=768" />
+<meta name="msapplication-task" content="name=新浪微博;action-uri=/;icon-uri=http://img.t.sinajs.cn/t4/style/images/common/favicon/home.ico" />
+<meta name="msapplication-task" content="name=我的微博;action-uri=//profile;icon-uri=http://img.t.sinajs.cn/t4/style/images/common/favicon/mypage.ico" />
+<meta name="msapplication-task" content="name=微博广场;action-uri=http://plaza.weibo.com;icon-uri=http://img.t.sinajs.cn/t4/style/images/common/favicon/square.ico" />
+<meta content="#2994ce" name="msapplication-navbutton-color" />
+<title>新浪微博登录 </title>
+<link href="http://img.t.sinajs.cn/t4/style/css/pages/register/v35loginphp.css?version=201303251913" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+var $CONFIG = {};
+$CONFIG['islogin'] = '0';
+$CONFIG['version'] = '201303251913';
+$CONFIG['timeDiff'] = (new Date() - 1364210029000);
+$CONFIG['lang'] = '';
+$CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t5/';
+$CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t5/';
+$CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t5/';
+$CONFIG['servertime'] = 1364210029;
+$CONFIG['mJsPath'] = ['http://js{n}.t.sinajs.cn/t5/', 1, 2];
+$CONFIG['mCssPath'] = ['http://img{n}.t.sinajs.cn/t5/', 1, 2];
+$CONFIG['redirect'] = 'http://weibo.com/1869768143/profile?topnav=1&amp;wvr=5';
+</script>
+<script src="http://js.t.sinajs.cn/STK/js/gaea_1_19.js" type="text/javascript" ></script>
+</head>
+
+<body class="MIB_loginphp L-">
+	<div class="loginWarp">
+  <div class="warpB1"></div>
+  <div class="warpC" id="pl_login_login">
+    <div class="loginMain">
+      <div class="loginMain2">
+        <table class="regTab">
+          <tr>
+            <th>还没有新浪微博帐号？</th>
+            <td class="regBg"><a target="_self" href="http://weibo.com/signup/signup.php" suda-data="key=weibo_login&value=register">立即注册</a></td>
+          </tr>
+        </table>
+        		<!-- 登录组件HTML start -->
+		<div id="login_form"></div>
+		<!-- 登录组件HTML end -->
+        <div class="hezuo_login"> <strong>使用其他帐号登录</strong> 
+	        <span><i class="hezuo_login1"></i><a class="msnlink" tabindex="6" title="MSN" href="javascript:void(0);" node-type="msn" >MSN</a></span><b>|</b>
+	        <span><i class="hezuo_login3"></i><a target="_blank" href="http://weibo.com/bind/gotooauth.php?company=189.cn" >天翼</a></span><b>|</b>
+	        <span><i class="hezuo_login4"></i><a target="_blank" href="http://weibo.com/bind/gotooauth.php?company=wo.com.cn" >联通</a></span><b>|</b>
+	        <span><i class="hezuo_login5"></i><a target="_blank" href="https://openapi.360.cn/oauth2/authorize?client_id=8819d1babbbc50a42021ee957c4b6e63&response_type=code&redirect_uri=http://account.weibo.com/set/bindsns/callback&scope=basic&display=default&state=360&relogin=sina" >360</a></span>
+        </div>            	<p class="mobile"><span class="sj"><a target="_blank" href="http://m.weibo.com/web/cellphone.php?topnav=1&wvr=4" suda-data="key=weibo_login&value=goto_weibo">手机玩转新浪微博</a></span></p> 
+      </div>
+    </div>
+  </div>
+  <div class="warpB clearfix">
+  <div class="bottomLinks">
+    <div class="MIB_foot_new MIB_txtbr MIB_linkbr">
+       <div class="lf">
+			<p class="p1"><a target="_blank" href="http://help.weibo.com/?refer=didao&bottomnav=1&wvr=5">微博帮助</a><a target="_blank" href="http://weibo.com/k/weijianyi">意见反馈</a><!--<a target="_blank" href="http://weibo.com/verified">微博认证及合作</a>--><a target="_blank" href="http://open.weibo.com/">开放平台</a><a target="_blank" href="http://hr.weibo.com">微博招聘</a><a target="_blank" href="http://news.sina.com.cn/guide/">新浪网导航</a><a target="_blank" href="http://weibo.com/complaint/complaint.php?url=http%3A%2F%2Fweibo.com%2F2006764843"><img class="informIcon" src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif">不良信息举报</a></p>
+			<p>客服电话：400 096 0960（个人） 400 098 0980（企业） (按当地市话标准计费)</p>
+			<p class="p1">北京微梦创科网络技术有限公司　<a href="http://weibo.com/aj/static/jww.html" target="_blank">京网文[2011]0398-130号</a><a href="http://www.miibeian.gov.cn" target="_blank">京ICP证100780号</a></p>
+		</div>     
+            <div class="rt">                    
+               <p>语言：
+		       <select onchange="location.href=this.value" id="lang_select">
+					<option value="/login.php?url=http%3A%2F%2Fweibo.com%2F1869768143%2Fprofile%3Ftopnav%3D1%26wvr%3D5&lang=zh-cn">中文(简体)</option>
+					<option value="/login.php?url=http%3A%2F%2Fweibo.com%2F1869768143%2Fprofile%3Ftopnav%3D1%26wvr%3D5&lang=zh-tw">中文(臺灣)</option>
+					<option value="/login.php?url=http%3A%2F%2Fweibo.com%2F1869768143%2Fprofile%3Ftopnav%3D1%26wvr%3D5&lang=zh-hk">中文(香港)</option>		
+		        	<option value="/login.php?url=http%3A%2F%2Fweibo.com%2F1869768143%2Fprofile%3Ftopnav%3D1%26wvr%3D5&lang=en-us">English</option>
+		        </select>
+			   </p>
+			    <p>Copyright © 1996-2013 SINA</p>
+             </div>
+            <div class="clearit"></div>
+       </div>
+  </div>
+</div>
+</div>
+<!-- SUDA_CODE_START -->
+<script type='text/javascript' charset="utf-8">
+(function() {
+	var doc = document,
+		wa = doc.createElement('script'),
+		s = doc.getElementsByTagName('script')[0];
+    wa.type = 'text/javascript';
+    wa.charset = 'utf-8';
+    wa.async = true;
+    wa.src = ('https:' == doc.location.protocol ? 'https://' : 'http://') + 'js.t.sinajs.cn/open/analytics/js/suda.js?version=';
+    s.parentNode.insertBefore(wa, s);
+})();
+</script>
+<noScript>
+<img width="0" height="0" src="http://beacon.sina.com.cn/a.gif?noScript" border="0" alt="" />
+</noScript>
+<!-- SUDA_CODE_END -->
+<script type="text/javascript" src="http://js.t.sinajs.cn/t35/miniblog/static/js/sso.js?version=201303251913"></script>
+
+<script type="text/javascript" src="http://js.t.sinajs.cn/t4/apps/secure/js/login/plugin.js?version=201303251913"></script>
+<script type="text/javascript" src="http://js.t.sinajs.cn/t4/home/js/login/login.js?version=201303251913"></script>
+<!-- by yaf -->
+</body>
+</html>
